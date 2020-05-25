@@ -1,0 +1,35 @@
+html,body{
+    height:100%;
+    width: 100%;
+    margin: 0;
+}
+#root{
+    height: 100%;
+}
+
+.Login-class{
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.Login-form{
+    height: 350px;
+    width: 450px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    justify-items: center;
+}
+form{
+    margin: 10px;
+}
+input[type="text"]{
+    height: 30px;
+    width: 150px;
+    outline: none;
+}
+input[type="submit"]{
+    height: 150px;
+    outline: none;
+}
